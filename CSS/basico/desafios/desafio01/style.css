@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+h1{
+    margin-left: 10px;
+
+}
+
+div {
+    background-image: url("imagens/backgorund.png");
+    background-size: cover;
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+    margin-left: 10px;
+}
+
+#inst{
+    list-style-image: url("imagens/Insta.png");
+}
+
+#tw {
+    list-style-image: url("imagens/Twitter.png");
+}
+
+#youtube {
+    list-style-image: url("imagens/Youtube.png");
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

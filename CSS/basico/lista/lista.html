@@ -11,15 +11,35 @@
             
             list-style-type: circle;
             /* circle, disc, square */
+            background-color: aqua;
+            margin: 0;
+            padding: 10px;
+            list-style-position: inside;
         }
 
         ol{
             list-style-image: url("http://squids.com.br/icons/folder.png");
             list-style-position: inside;
+            background-color: blueviolet;
+            margin: 0;
+            padding: 10px;
             
         }
         li{
-            border-bottom: 1px solid black;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: yellow;
+            padding: 3px;
+            margin: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: blueviolet;
         }
     </style>
 </head>
@@ -27,7 +47,9 @@
     <h1>EStilizando listas</h1>
 
     <ul>
-        <li>Item 1</li>
+        <a href="#">
+            <li>Item 1</li>
+        </a>
         <li>Item 2</li>
         <li>Item 3</li>
     </ul>
