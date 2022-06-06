@@ -1,11 +1,12 @@
-let p = document.getElementById ("p1")
+function loaded(){
 
-p.innerHTML = "<h2>novo conteudo</h2>"
 
-let p2 = document.getElementById ("p2")
+let t = document.getElementById("title")
 
-p2.innerHTML = "teste"
+t.onclick = changeText
+}
 
-let p3 = document.getElementsByTagName ("p")
 
-p3.innerHTML = "outro"
+function changeText() {
+    this.innerHTML = "Novo Texto"
+}

@@ -7,18 +7,26 @@
     <title>Document</title>
 
     <style>
-        .paragrafo {
-            color: red;
+        img {
+            display: block;
+            width: 200px;
         }
 
+        div {
+            display: inline-block;
+            background-color: aquamarine;
+            padding: 20px;
+            font-size: 2em;
+            border-radius: 10px;
+        }
     </style>
+
 </head>
 <body>
 
-    <h1>Título</h1>
-    <p class="paragrafo" id="p1">Páragrafo1</p>
-    <p class="paragrafo2" id="p2">Páragrafo2</p>
-    <p>Páragrafo3</p>
+    <img src="https://st.depositphotos.com/1665130/1362/i/950/depositphotos_13620863-stock-photo-sunrise-in-the-sea.jpg" alt="" onload="console.log('carregado')">
+
+    <div  onmouseover="onOver(this)" onmouseout="onOut(this)" > Click </div>
    
 
 <script src="script.js"></script>
