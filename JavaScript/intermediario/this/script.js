@@ -6,4 +6,6 @@ t2.onclick = maiuscula
 
 function maiuscula() {
     this.innerHTML = this.innerHTML.toUpperCase()
+
+
 }
