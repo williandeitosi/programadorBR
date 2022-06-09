@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #B05126;
+    border-radius: 10px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+input {
+    box-sizing: border-box;
+    display: block;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
+}
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #813d1d;
+    cursor: pointer;
+}
