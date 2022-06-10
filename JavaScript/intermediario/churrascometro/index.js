@@ -20,10 +20,19 @@ function calcular() {
     let criancas = inputCriancas.value
     let duracao = inputDuracao.value
 
-    let qtCarne = carnePP(duracao) * adultos + (carnePP(duracao)/2 * criancas) + "gr de carne"
+    let qtCarne = carnePP(duracao) * adultos + (carnePP(duracao)/2 * criancas)
     console.log(qtCarne)
 
-    resultado.innerHTML = qtCarne
+    let qtCerveja = cervejaPP(duracao) * adultos
+    console.log(qtCerveja)
+
+    let qtRefri = refriAguaPP(duracao) * adultos + (refriAguaPP(duracao)/2 * criancas)
+    console.log(qtRefri)
+
+    resultado.innerHTML = `<p>${qtCarne / 1000} Kg de Carne</p>`
+    resultado.innerHTML += `<p>${Math.ceil(qtCerveja / 355)} Latas de Cerveja</p>`
+    resultado.innerHTML += `<p>${Math.ceil(qtRefri / 2000)} Garrafas de Bebidas</p>`
+    
 }
 
 function carnePP(duracao) {
