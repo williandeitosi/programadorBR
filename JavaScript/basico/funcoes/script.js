@@ -35,11 +35,28 @@ console.log(resultado) */
 
 
 
-var media = function(n1, n2) {
+ var media = function(n1, n2) {
 
     return(n1 + n2) / 2
 }
 
 var m = media(5, 6)
 
-console.log(m)
+console.log(m)*
+
+/* TESTE
+
+
+function media (n1, n2) {
+ let numero1 = n1
+ let numero2 = n2
+ let media = (n1 + n2) / 2
+ console.log(media)
+}
+
+media(10, 5)
+media(8, 2)
+media(5, 1)
+*/
+
+
