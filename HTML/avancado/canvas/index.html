@@ -7,32 +7,19 @@
     <title>Animação</title>
 
     <style>
-        .container {
-            position: relative;
-
-            background-color: aquamarine;
-            width: 500px;
-            height: 500px;
-            overflow: hidden;
-        }
-
-        .quadrado {
-            position: absolute;
-
-            background-color: darkred;
-            width: 20px;
-            height: 20px;
+        #tela {
+            background-color: lightslategray;
         }
 
 
     </style>
 </head>
 <body>
+    <!-- Defina altura e largura na TAG para não dar problema -->
+    <canvas id="tela" width="500px"
+    height="500px">
 
-    <div class="container">
-
-        <div id="jogador" class="quadrado"></div>
-    </div>
+    </canvas>
     
 
     <script src="index.js"></script>
