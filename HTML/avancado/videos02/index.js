@@ -32,13 +32,8 @@ function diminuir() {
     video.playbackRate -= 0.1
 }
 
-box.addEventListener("click", esconder) 
 
-function esconder () {
 
-    if(box.style.display === "block") {
-        box.style.display = "none"
-    }else {
-        box.style.display = "block"
-    }
-}
+
+
+

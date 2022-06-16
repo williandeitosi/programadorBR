@@ -8,9 +8,11 @@ h1 {
 }
 
 .container{
+    margin: auto;
     position: relative;
     width: 640px;
     height: 360px;
+    
 }
 
 .video {
@@ -23,8 +25,14 @@ h1 {
     text-align: center;
     width: 100%;
     height: 100%;
-  
+    display: block;
+
 }
+.controle:hover {
+    display: none;
+}
+
+
 
 .btn {
     position: relative;
@@ -32,5 +40,6 @@ h1 {
     transform: translate(0,-100%);
     width: 35px;
     padding: 10px;
+    
     
 }
