@@ -7,13 +7,13 @@ function serve para apenas nome a um bloco de comando
 
 
 
-
 /*
+
 function media(n1, n2) {
     var nota1 = n1
     var nota2 = n2
     var media = (nota1 + nota2) / 2
-    // console.log(media)
+     console.log(media)
 
     return media
     /* 
@@ -35,14 +35,14 @@ console.log(resultado) */
 
 
 
- var media = function(n1, n2) {
+/* var media = function(n1, n2) {
 
     return(n1 + n2) / 2
 }
 
 var m = media(5, 6)
 
-console.log(m)*
+console.log(m)*/
 
 /* TESTE
 
@@ -60,3 +60,18 @@ media(5, 1)
 */
 
 
+
+    let btn = document.getElementById("calc")
+
+    btn.addEventListener("click",media)
+
+    function media() {
+        let n1 = parseFloat(document.getElementById("n1").value)
+        let n2 = parseFloat(document.getElementById("n2").value)
+        
+        
+        let media = (n1 + n2) / 2
+
+        document.getElementById("md").value = media
+
+    }

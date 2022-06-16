@@ -3,6 +3,7 @@
 let video = document.getElementById("video1")
 let box = document.getElementById("container")
 
+
 function play() {
     video.play()
 }
@@ -33,7 +34,16 @@ function diminuir() {
 }
 
 
+box.addEventListener("mouseover", show)
+box.addEventListener("mouseleave", hide)
 
+
+function show(){
+    box.style.opacity = "1"
+}
+function hide(){
+    box.style.opacity = "0"
+}
 
 
 
