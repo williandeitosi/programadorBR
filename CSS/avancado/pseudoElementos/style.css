@@ -1,5 +1,4 @@
 
-
 p::first-line {
     color: red;
 }
@@ -11,10 +10,39 @@ p::first-letter {
 
 li {
     list-style: none;
+ 
 }
 
 li::before {
-    content: "A";
-    color: blue;
-    font-size: 20px;
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/human-skull-with-crossed-bones-silhouette.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+/*
+    Igual a o before porem coloca as coisas depois dos itens
+
+li::after {
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./assets/human-skull-with-crossed-bones-silhouette.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}*/
+
+
+/* muda a cor de quando você seleciona algo no texto */
+p::selection {
+    background-color: yellow;
+    color: green;
 }
