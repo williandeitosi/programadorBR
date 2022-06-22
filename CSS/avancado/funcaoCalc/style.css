@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: red;
+}
+
+/* para as distancias das bordas não mudarem de tamanho */
+.primeira {
+    width: calc(100% - 100px);
+    height: 100px;
+    background-color: yellow;
+    margin: auto;
+}
+

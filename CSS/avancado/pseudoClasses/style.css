@@ -1,0 +1,35 @@
+
+
+/* apenas ficará vermelho o input que estiver em foco "que você estiver digitando" */
+
+input:focus{
+    color: red;
+    font-size: 2em;
+}
+
+
+/* prieiro filho de um elemento acima , neste caso o pirmeiro filho de <ul> */
+li:first-child{
+    color: blue;
+}
+
+/* diferença que esse é o primeiro do tipo <li> no caso , não o primeiro filho */
+li:first-of-type{
+    color: blue;
+}
+
+
+/* pode escolher a posição do FILHO que queira trocar as cores */
+li:nth-child(5){
+    color: green;
+}
+
+
+
+/* do tipo <li> */
+li:nth-of-type(even){ /*par*/
+   background-color: purple;
+}
+li:nth-of-type(odd){ /*impar*/
+   background-color: yellow;
+}
