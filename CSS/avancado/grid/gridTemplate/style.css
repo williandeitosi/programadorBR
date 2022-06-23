@@ -1,0 +1,37 @@
+
+
+.container {
+    display: grid;
+    grid-template-rows: 200px 100px ; /* linhas em (px, %) */
+    grid-template-columns: 1fr 3fr 1fr ; /* coluna em (px, % ou fr(que é a mais utilizada)) */
+
+    grid-template: 100px auto auto  /  auto auto; /* linhas / colunas (assim fica mais simples que o exemplo acima)*/
+
+
+    color: white;
+    background-color: darkgray;
+    padding: 10px;
+}
+
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+.react {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+
+    /* width: 100px;
+    height: 100px; */
+}

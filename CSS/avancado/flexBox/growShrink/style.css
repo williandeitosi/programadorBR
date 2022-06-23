@@ -1,0 +1,27 @@
+.container {
+    display: flex;/* altera os filhos */
+    
+
+    background-color: darkgray;
+    height: 500px;
+    color: white;
+}
+
+.r1 {
+    flex-grow: 0;/* 0 = almentar   1 = não pode almentar vode poder mudar o tamanho almentando os numeros EX: 2 vai ter o dobro do tamanho */
+
+    background-color: red;
+}
+.r2 {
+    background-color: blue;
+}
+.r3 {
+    flex-shrink: 0;/* 0 = não pode encolher  1 = pode encolher */
+
+    background-color: green;
+}
+
+.react {
+    width: 150px;
+    height: 150px;
+}
