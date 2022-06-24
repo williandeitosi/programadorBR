@@ -1,0 +1,57 @@
+
+
+.container {
+    display: grid;
+
+
+    grid-template: auto auto  /  auto auto auto; /* linhas / colunas (assim fica mais simples que o exemplo acima)*/
+
+    gap: 10px 10px ; /* para dar espaçamento entre as linhas e colunas */
+
+
+    justify-items: center; /* ira alinhar os itens na horizontal */
+
+    align-items: center; /* ira alinhar os itens na 
+    vertical */
+
+
+    
+    justify-content: center; /* ira alinhar os linhas na horizontal */
+    
+    
+    align-content: center; /* ira alinhar os linhas na vertical */
+
+
+
+
+
+
+
+    height: 500px;
+    color: white;
+    background-color: darkgray;
+    padding: 10px;
+}
+
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+.react {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+
+    width: 100px;
+    height: 100px;
+}

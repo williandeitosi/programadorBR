@@ -1,0 +1,59 @@
+
+
+.container {
+    display: grid;
+
+
+   grid-template-areas: "a1 a1 a1 a1 a1 a1"
+                        "a2 a2 a3 a3 a3 a3"
+                        "a2 a2 a4 a5 a5 a5"
+                        "a6 a6 a6 a6 a6 a6"
+;
+
+    gap: 10px;
+
+
+
+
+    color: white;
+    background-color: darkgray;
+    padding: 10px;
+}
+
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+.react1 {
+    grid-area: a1;
+
+}
+.react2 {
+    grid-area: a2;
+
+}
+.react3 {
+    grid-area: a3;
+
+}
+.react4 {
+    grid-area: a4;
+
+}
+.react5 {
+    grid-area: a5;
+
+}
+.react6 {
+    grid-area: a6;
+
+}
