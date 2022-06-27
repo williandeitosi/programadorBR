@@ -30,11 +30,15 @@ function list () {
     console.log(usuarios)
 }
 
-inserir("Pedro")
-    .then(list)
-    .catch((error) => {
-        console.log(error)
-    })
+
+const executar = async () => {
+
+    await inserir("PEdro")
+    list()
+
+}
+executar()
+
 
 
 /* Maneira mais nova para substituir o callBack que é as promises */
