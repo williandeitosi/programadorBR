@@ -1,4 +1,4 @@
-
+/* MAP serve para transformar um array em outro */
 const novoAluno = (nome, idade) => {
     return {nome, idade}
 }
